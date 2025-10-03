@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "903311651949",
+    "project_id": "beleza-limitada-mobile",
+    "storage_bucket": "beleza-limitada-mobile.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903311651949:android:7fb4b3664d0e0b92273b64",
+        "android_client_info": {
+          "package_name": "com.example.beleza_limitada_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDycYbZBAHNrK3eZi-5eOtu6A2VA8gLqdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
