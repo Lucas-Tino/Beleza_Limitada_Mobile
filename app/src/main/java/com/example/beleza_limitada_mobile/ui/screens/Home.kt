@@ -1,4 +1,4 @@
-package com.example.beleza_limitada_mobile.screens
+package com.example.beleza_limitada_mobile.ui.screens
 
 import androidx.compose.runtime.Composable
 
