@@ -11,12 +11,12 @@ abstract class VeiculoViewModel {
     val db = FirebaseFirestore.getInstance()
 
     fun addVeiculo(veiculo: HashMap<String, String>) {
-        db.collection("veiculos")
+        db.collection("veiculo")
             .add(veiculo)
     }
 
     fun getVeiculo(idVeiculo: String): Task<DocumentSnapshot?> {
-        return db.collection("veiculos").document(idVeiculo)
+        return db.collection("veiculo").document(idVeiculo)
             .get()
             .addOnSuccessListener { document ->
                 Veiculo(
@@ -50,7 +50,7 @@ abstract class VeiculoViewModel {
     }
 
     fun updateVeiculo(veiculo: HashMap<String, String>, idVeiculo: String) {
-        db.collection("veiculos").document(idVeiculo)
+        db.collection("veiculo").document(idVeiculo)
             .set(veiculo)
             // funções a mais para erro ou sucesso
             .addOnSuccessListener {
@@ -62,7 +62,7 @@ abstract class VeiculoViewModel {
     }
 
     fun deleteVeiculo(idVeiculo: String) {
-        db.collection("veiculos").document(idVeiculo)
+        db.collection("veiculo").document(idVeiculo)
             .delete()
             // funções a mais para erro ou sucesso
             .addOnSuccessListener {

@@ -5,6 +5,6 @@ data class Vendedor(
     val Nome: String,
     val Identificacao: String,
     val RegiaoVenda: String,
-    val VeiculoId: Long,
+    val VendedorId: Long,
     val Status: String
 )
