@@ -1,6 +1,7 @@
 package com.example.beleza_limitada_mobile.ui.navigation
 
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -18,7 +19,7 @@ import com.example.beleza_limitada_mobile.ui.screens.vendedor.DashboardVendedorS
 import com.example.beleza_limitada_mobile.ui.screens.vendedor.UpdateVendedorScreen
 
 @Composable
-fun AppNavGraph(navController: NavHostController) {
+fun AppNavGraph(navController: NavHostController, modifier: Modifier) {
     NavHost(
         navController = navController,
         startDestination = Routes.HOME
