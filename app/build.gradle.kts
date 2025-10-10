@@ -42,6 +42,10 @@ android {
 
 dependencies {
     implementation(libs.firebase.firestore)
+    implementation(libs.firebase.auth)
+    implementation(libs.androidx.credentials)
+    implementation(libs.androidx.credentials.play.services.auth)
+    implementation(libs.googleid)
     val nav_version = "2.9.3"
 
     // Jetpack Compose integration
