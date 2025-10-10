@@ -24,7 +24,7 @@ abstract class VendedorViewModel {
                     Nome = document.getString("nome") ?: "",
                     Identificacao = document.getString("identificacao") ?: "",
                     RegiaoVenda = document.getString("regiaoVenda") ?: "",
-                    VendedorId = document.getString("vendedorId")!!.toLong(),
+                    VeiculoId = document.getString("veiculoId")!!.toLong(),
                     Status = document.getString("status") ?: ""
                 )
             }
@@ -41,7 +41,7 @@ abstract class VendedorViewModel {
                         Nome = document.getString("nome") ?: "",
                         Identificacao = document.getString("identificacao") ?: "",
                         RegiaoVenda = document.getString("regiaoVenda") ?: "",
-                        VendedorId = document.getString("vendedorId")!!.toLong(),
+                        VeiculoId = document.getString("veiculoId")!!.toLong(),
                         Status = document.getString("status") ?: ""
                     )
                 } as MutableList<Vendedor>
